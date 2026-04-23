@@ -9,7 +9,7 @@ import json
 import time
 from functools import lru_cache
 from contextlib import contextmanager
-
+# کامیت
 # client = Client('own_session')
 bot = Robot("JDABG0IPYFOWNITYKVGQXYZWBSSZLRBVMVJDYLVCLPNGEKPELISAFMSFAAYJMLUK")
 
