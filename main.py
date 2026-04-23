@@ -60,7 +60,7 @@ def calculate_production(farm_lvl, last_time, current_time):
 
 @contextmanager
 def get_db():
-    conn = sqlite3.connect("db/RubkaSaveMessage.db", timeout=10)
+    conn = sqlite3.connect("root@pmbot-jag-deploy-66668bf99-bs4n4:/db/RubkaSaveMessage.db", timeout=10)
     conn.row_factory = sqlite3.Row
     try:
         yield conn
