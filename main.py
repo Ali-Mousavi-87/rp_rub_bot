@@ -11,7 +11,7 @@ from functools import lru_cache
 from contextlib import contextmanager
 # کامیت
 # client = Client('own_session')
-bot = Robot("JDABG0IPYFOWNITYKVGQXYZWBSSZLRBVMVJDYLVCLPNGEKPELISAFMSFAAYJMLUK")
+bot = Robot("JDABG0IPYFOWNITYKVGQXYZWBSSZLRBVMVJDYLVCLPNGEKPELISAFMSFAAYJMLUK",web_hook='https://webhock-pmteam.runflare.run')
 
 user_commands = defaultdict(lambda: {'count': 0, 'first_time': 0})
 blocked_users = {}
@@ -428,4 +428,4 @@ f'''
                 else:
                     await message.reply('⭕ **اسم تکراری است** ⭕\nلغو : 11')
 
-asyncio.run(bot.run())
+bot.run()
