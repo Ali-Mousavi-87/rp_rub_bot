@@ -11,7 +11,7 @@ from functools import lru_cache
 from contextlib import contextmanager
 # کامیت
 # client = Client('own_session')
-bot = Robot("JDABG0IPYFOWNITYKVGQXYZWBSSZLRBVMVJDYLVCLPNGEKPELISAFMSFAAYJMLUK",web_hook='https://webhock-pmteam.runflare.run')
+bot = Robot("BEHFJF0YAIALQLLOIEKEEMMOFWIJHEGGLPPEHZPXDPABVDUABKUXBJNAOOCFYHXL",web_hook='https://webhock-pmteam.runflare.run')
 
 user_commands = defaultdict(lambda: {'count': 0, 'first_time': 0})
 blocked_users = {}
